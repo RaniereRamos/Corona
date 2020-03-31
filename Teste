@@ -1,0 +1,19 @@
+Americanas_jan2020 <- readr::read_csv2(file = "ABT_ACOM_012020.csv", 
+                                       col_names = c("Marca","Marketplace","Seller","Departamento","Alavanca","Combinacao","Data do Pedido",
+                                                     "Dia da semana","Dia","Mes","Ano","Status do pagamento","Click collect","Tipo mobile","Midia",
+                                                     "Regiao","Estado","Faixa","Normalizado","Venda Prime","Codigo do pedido", "Codigo do Item",
+                                                     "Codigo do pedido item","Codigo da entrega","Valor do  item","Valor da comissao","Valor do frete",
+                                                     "Valor da comissao frete","Valor desconto cond","Valor do cashback","Rentabilidade comercial",
+                                                     "Rentabilidade seller","Rentabilidade desp frete","Qtde Pit","Qtde SKU"), skip = 1,
+                                       col_types = NULL, locale("pt"), quoted_na = TRUE, quote = "\"", comment = "", trim_ws = TRUE,
+                                       progress = show_progress(), skip_empty_rows = TRUE)
+
+Americanas_jan2020 <- (file.choose(), 
+                      col_names = c("Marca","Marketplace","Seller","Departamento","Alavanca","Combinacao","Data do Pedido",
+                                    "Dia da semana","Dia","Mes","Ano","Status do pagamento","Click collect","Tipo mobile","Midia",
+                                    "Regiao","Estado","Faixa","Normalizado","Venda Prime","Codigo do pedido", "Codigo do Item",
+                                    "Codigo do pedido item","Codigo da entrega","Valor do  item","Valor da comissao","Valor do frete",
+                                    "Valor da comissao frete","Valor desconto cond","Valor do cashback","Rentabilidade comercial",
+                                    "Rentabilidade seller","Rentabilidade desp frete","Qtde Pit","Qtde SKU"), skip = 1,
+                      col_types = NULL, locale("pt"), quoted_na = TRUE, quote = "\"", comment = "", trim_ws = TRUE,
+                      progress = show_progress(), skip_empty_rows = TRUE)
